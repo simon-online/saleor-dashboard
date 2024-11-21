@@ -107,7 +107,6 @@ export const OrderDraftDetails: React.FC<OrderDraftDetailsProps> = ({
       channel: order.channel.slug,
       address: getVariantSearchAddress(order),
       isPublished: true,
-      stockAvailability: StockAvailability.IN_STOCK,
     },
   });
   const {
